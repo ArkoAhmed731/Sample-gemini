@@ -59,7 +59,8 @@ for index, messages in enumerate(st.session_state.messages):
 
 #for initial message startup
 if len(st.session_state.messages) == 0:
-    
+    initial_message = "Welcome to Gemini Explorer! How can I assist you today?"
+
 #for capture user input 
 query = st.chat_input("Gemini Explorer")
 
